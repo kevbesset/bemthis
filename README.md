@@ -21,8 +21,8 @@ import bem from "bemthis";
 
 bem("block"); // => 'block'
 bem("block", null, "modifier"); // => 'block block--modifier'
-bem("block", "bar"); // => 'block__bar'
-bem("block", "bar", { modifier: true }); // => 'block__bar block__bar--modifier'
+bem("block", "element"); // => 'block__bar'
+bem("block", "element", { modifier: true }); // => 'block__bar block__bar--modifier'
 ```
 
 or directly with sub functions
